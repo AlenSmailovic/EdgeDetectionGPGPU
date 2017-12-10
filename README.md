@@ -12,6 +12,7 @@
 ### Performance comparison between CPU and GPU
 - The comparison is done on five type of images with different resolution: 4K (5120X3200), QHD (3840X2160), FHD (1920X1080), HD (1280X720), VGA (640X480).
 - For image results, run the scripts.
+- The time is displayed in seconds.
 
 | Implementation | Image size | Convert   | Allocate memory | Image processing | Convert from GPU | Saving    | Total time |
 | -------------- | ---------- | ----------| --------------- | ---------------- | -----------------| --------- | ---------- |
@@ -32,6 +33,7 @@
 
 ### GPU using Shared Memory
 - In order to run this, uncomment and comment the part without shared memory in EdgeDetectionGPU.py file.
+- Time is displayed in seconds
 
 | Image size | Convert   | Allocate memory | Kernel execution | Convert from GPU | Saving    | Total time |
 | ---------- | ----------| --------------- | -----------------| -----------------| --------- | ---------- |
